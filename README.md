@@ -1,7 +1,7 @@
 # DreamDiary
 A dream diary with simple voice commands
 
-<p>A simple app created to record dreams. It has an on-open record feature (utilizes Speech Recognizer) that could be useful for recording dreams in the middle of the night. This helps for minimizing time awake and exposure to blue light in the midst of a temporary wake up. Additionally, it is much faster than typing out an entry. Another feature is that it allows for simple diary export to .txt format</p>
+<p>A simple app created to record dreams. It has an on-open record feature (utilizes Speech Recognizer) that could be useful for recording dreams in the middle of the night. This helps for minimizing time awake and exposure to blue light in the midst of a temporary wake up. Additionally, it is much faster than typing out an entry. Another feature is that it allows for simple diary export to .txt format.</p>
 <h2> Commands Included</h2>
 <li>Add Entry + text- adds an entry</li>
 <li>Delete Entry + entry number- deletes an entry</li>
