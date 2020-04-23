@@ -379,7 +379,11 @@ class JournalViewModel(application: Application, private val database:PageDao) :
     }
 
     fun hasPassword(): Boolean {
-        return sharedPrefs.getBoolean(app.getString(R.string.pref_key_require_pass),false)
+        if(!sharedPrefs.getBoolean(app.getString(R.string.pref_key_require_pass),false) ||
+            "" == sharedPrefs.getString(app.getString(R.string.pref_key_password),"")){
+            return false
+        }
+        return true
     }
 
     fun deletePage(page: Page){

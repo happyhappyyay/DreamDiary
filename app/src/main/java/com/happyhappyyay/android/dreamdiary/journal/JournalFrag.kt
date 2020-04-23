@@ -141,6 +141,7 @@ class JournalFrag : Fragment() {
 
     private fun backNavOption(){
         if(viewModel.hasPassword()){
+            clearFocus()
             findNavController().navigateUp()
         }
         else{
