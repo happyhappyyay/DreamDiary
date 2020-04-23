@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="pref_key_require_pass">pref_key_require_pass</string>
+    <string name="pref_key_password">pref_key_password</string>
+    <string name="pref_key_auto_record">pref_key_auto_record</string>
+    <string name="pref_key_prefer_offline">pref_key_prefer_offline</string>
+    <string name="pref_key_theme">pref_key_theme</string>
+    <string name="pref_key_book_color">pref_key_book_color</string>
+    <string name="pref_key_first_time">pref_key_first_time</string>
+    <string name="pref_key_export">pref_key_export</string>
+
+</resources>

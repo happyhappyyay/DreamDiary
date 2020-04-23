@@ -1,0 +1,16 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dip"
+    android:background="?textPrimary"
+    android:gravity="center_vertical"
+
+    android:paddingStart="24dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="8dp"
+    android:text="@string/test"
+    android:textAppearance="@style/Preference.Category"
+    android:textColor="?colorPrimary"
+    android:textSize="18sp" />

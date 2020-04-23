@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Dream Diary</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password">Password(optional)</string>
+    <string name="auto_record">Auto Record in Open Journal</string>
+    <string name="sound_feedback">Enable Sound Feedback</string>
+    <string name="intro">Welcome to YOUR Dream Journal. Before you get started, there are a few options to configure. YOUR Dream Journal allows you to password protect your journal. You can also enable the journal to auto record your speech for simplifying journal entry. If you do not enable this option, the journal still allows you to record speech with the simple press of a button. YOUR Dream Journal also includes the option of sound feedback for entering journal entries to help make speech entry more efficient.</string>
+    <string name="sound_feedback_tip">Sound feedback occurs before recording begins and after an entry has been inserted. This also marks the point at which another speech command can be given.</string>
+    <string name="auto_record_tip">You can enable the journal to automatically start recording when open. Recording commands can be found in the help section. If this option is disabled, recording can be manually triggered on each journal page.</string>
+    <string name="password_tip">You can password protect your journal. Password is then required each time you reopen the app. The password needs to be 6 or more characters long.</string>
+    <string name="get_started">Get Started!</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="journal_entry_text">text</string>
+    <string name="x">X</string>
+    <string name="delete_entry_confirmation">Are you sure you want to delete this entry?</string>
+    <string name="confirm_delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="how_to_use">How to Use</string>
+    <string name="voice_commands">Voice Commands</string>
+    <string name="appearance">Appearance</string>
+    <string name="how_to_use_this_app">How to use this App</string>
+    <string name="how_to_use_explanation">Dream diary is a dream recording app. It can be used to record dreams for later recollection. There are options for password protecting the diary and recording audio on opening the diary (useful for late night entries).\n\n
+
+Using Voice Commands\n\n
+
+The diary allows the usage of voice commands to complete most tasks. The first time the microphone button is used, the app will ask for permission for recording audio. This permission is necessary for using the device\'s microphone to record audio and enacting the voice commands. After the microphone button is selected, wait for an initial beep to indicate recording has started. A second beep will indicate that recording has concluded. A list of voice commands can be found in the voice command section of this help page.\n\n
+
+Add an Entry\n\n
+
+The diary starts with just one page, today. On each page, multiple entries can be added. An entry is the text that recounts your dream. Adding an entry can be accomplished by typing the dream into a text field or pressing the microphone button to record a voice command (e.g., ADD ENTRY I dreamt that I was flying above the clouds…).\n\n
+
+Edit an Entry\n\n
+
+All entries can be changed after they have been entered. Just click on the text field and change the entry. The entry will be automatically updated.\n\n
+
+Delete Entry\n\n
+
+To delete an entry, press and hold the text input and the option to delete the entry will appear. The option to delete all entries will also appear. Another way to delete an entry is to use the voice command with the entry number or term all-for all entries (e.g., DELETE ENTRY 4, DELETE ENTRY ALL).\n\n
+
+Add a Page\n\n
+
+To add a new page, click the diary\'s date, which opens up a calendar. From there, any date can be selected and any date selected without a page will automatically create a new page for that specific date. There is also a voice command for adding a page (e.g., ADD PAGE January 1st, 2019). Pages can only be created for past dates.\n\n
+
+Find a Page\n\n
+
+The pages can be manually searched by swiping left (for decreasing dates) or right (for increasing dates). Another option is to click the date, which opens up a calendar. From there any date can be selected. There is also a voice command option for finding a page (e.g., GO TO January, 1st 2019; GO TO LAST PAGE; GO TO FIRST PAGE).\n\n
+
+Delete a Page\n\n
+
+To delete a page, press and hold on the page and select the option delete page. This will delete the page and any entries associated with that specific page. The page can also be deleted by using a voice command (e.g., DELETE PAGE January, 1st 2019). The page of the current day will appear even if it is deleted. The entries previously associated with the page will not appear if the page is deleted).\n\n
+
+Settings\n\n
+
+password- Enter a password and then select require password to require password on starting the app.\n\n
+require password- requires the password entered on app start.\n\n
+start recording on open- starts a recording upon the diary opening\n\n
+prefer offline speech recognition- uses offline speech recognition, which is less accurate than using online speech recognition.\n\n
+export- exports all pages with entries to a txt file in the preferred storage/DreamDiary/Diary_date.txt.\n\n
+theme- set the app\'s main color from several preset options.\n\n
+book color- set the book\'s color and it\'s ribbon\'s color.\n\n
+</string>
+    <string name="appearance_explanation">The color scheme of the dream diary is customizable between several different themes. On top of these themes, the color of the book and it\'s ribbon can be customized to a variety of preset colors.\n\n
+Themes\n\n
+
+
+Default Theme:\n
+Different shades of purple with a dirty yellow book\n\n
+Teal Theme:\n
+A primary color of teal with a secondary color of silver, book and ribbon are amix of the primary and secondary color.\n\n
+Bumblebee Theme:\n
+A primary color of yellow with a secondary color of black, book and ribbon are a mix of the primary and secondary color.\n\n\
+FireTruck Theme:\n
+A primary color of red with a secondary color of white and a hint of black. The book and ribbon are a mix of the primary and secondary color.\n\n
+Forest Theme:\n
+A primary color of green with a secondary color of brown, book and ribbon are a mix of the primary and secondary color.\n\n\
+Sea Theme:\n
+Different shades of blue with some tan, book is teal and ribbon is tan.\n\n\
+Professional Theme:\n
+A pale shade of purple with a secondary pale yellow. The book and ribbon are mixture of the primary and secondary color.\n\n
+
+Book/Ribbon Color\n\n
+
+Default- default theme book/ribbon color\n\n
+Red- a pale red\n\n
+Blue- a purplish-blue\n\n
+Green- a slightly dark green\n\n
+Yellow- a bright yellow\n\n
+Orange- a bright orange\n\n
+Purple- a bright purple\n\n
+Pink- a dull pink\n\n
+White- a bright white\n\n
+Black- a dark black\n\n
+</string>
+    <string name="voice_commands_explanation">
+        Voice Commands \n\n
+
+The following is a list of voice commands actionable by clicking the microphone button on the toolbar. Recording begins after the first beep and concludes upon the second beep.See Permissions below.\n\n
+
+\t\tSay:\n\n
+------------------------------\n
+ADD ENTRY + *say entry information*\n\n
+        ADD PAGE + *say specific date*\n\n
+GO TO + *FIRST PAGE, LAST PAGE, or say specific date*\n\n
+DELETE ENTRY + *ALL or say specific entry number*\n\n
+DELETE PAGE + *say specific date*\n
+        -------------------------------\n\n
+                \t\tExample:\n\n
+        ------------------------------\n
+        ADD ENTRY I dreamt that I was floating across a pure endless light…\n\n
+        ADD PAGE January 1st\n\n
+        DELETE PAGE January 2nd, 1915\n\n
+        DELETE ENTRY 2\n\n
+        GO TO FIRST PAGE\n
+        ------------------------------\n\n
+
+Permission\n\n
+
+If it is your first time using the recording function, the app will ask for permission to record audio. This is necessary for recognizing voice commands.\n\n
+
+Settings\n\n
+
+You can select the prefer offline option [prefer offline] in settings to prevent sending audio to be interpreted online; however, this will decrease accuracy. Another option in settings is to enable a single recording to start on the opening [auto record] of the journal.\n\n
+
+    </string>
+    <string name="require_password">Require Password To Open Diary</string>
+    <string name="require_password_summary">Enable this option to require a password every time the app is restarted</string>
+    <string name="enter_password_summary">Enter a password of any character combination or length. Store the password somewhere safe. The only way to reset it is to delete all of this app\'s data on this device.</string>
+    <string name="auto_record_on_open">Start Recording On Open</string>
+    <string name="auto_record_summary">Enable recording to start once the diary has opened to page view. Recording will auto-record for one recording. Subsequent recordings will have to manually click the record button.</string>
+    <string name="prefer_offline">Prefer Offline Speech Recognition</string>
+    <string name="prefer_offline_summary">"Enable this to prefer offline speech recognition. Speech recognition is sent online for more accurate results. "</string>
+    <string name="diary">Diary</string>
+    <string name="theme">Theme</string>
+    <string name="general">General</string>
+    <string name="export">Export</string>
+    <string name="export_summary">Export all the pages of the diary to a .txt file. File will be written to
+     your primary storage/DreamDiary/Diary_date.txt</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+    <string name="book_color">Book &amp; Ribbon Color</string>
+    <string name="book_color_summary">Choose the color of the dream diary &amp; ribbon!</string>
+    <string name="theme_summary">"Choose the app\'s main color! "</string>
+    <string name="test">Test</string>
+    <string name="delete">Delete</string>
+    <string name="record">Record</string>
+    <string name="about">About</string>
+    <string name="continued">Continue</string>
+    <string name="skip">Skip</string>
+    <string name="deleted_page">Deleted Page:&#160;</string>
+    <string name="added_page">Added Page:&#160;</string>
+    <string name="added_entry">Added Entry to&#160;</string>
+    <string name="deleted_entry">Deleted Entry:&#160;</string>
+    <string name="deleted_all_entries">Deleted All Entries for&#160;</string>
+    <string name="book_description">The right side of a diary, open to a dusty looking page. A ribbon sets beside the page.</string>
+    <string name="closed_book_description">A top view of a closed diary with a contrasting, horizontal band of color running across.</string>
+    <string name="password_auto">password</string>
+
+</resources>

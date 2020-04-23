@@ -1,0 +1,398 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.AppTheme.ActionBar</item>
+        <item name="header">@drawable/header</item>
+        <item name="colorPrimary">@color/primaryColorPurple</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColorPurple</item>
+        <item name="colorPrimaryLight">@color/primaryLightColorPurple</item>
+        <item name="colorAccent">@color/primaryLightColorPurple</item>
+        <item name="colorSecondary">@color/secondaryColorPurple</item>
+        <item name="colorSecondaryLight">@color/secondaryLightColorPurple</item>
+        <item name="bookColor">@color/defaultBookColor</item>
+        <item name="bookColorMid">@color/defaultBookMidColor</item>
+        <item name="textPrimary">@color/primaryTextColorPurple</item>
+        <item name="textSecondary">@color/secondaryTextColorPurple</item>
+        <item name="primaryColor">@color/primaryColorPurple</item>
+        <item name="ribbonDark">?colorSecondary</item>
+        <item name="ribbon">?colorSecondaryLight</item>
+        <item name="alertDialogTheme">@style/LightDialog</item>
+    </style>
+    <style name="AppTheme.Red" parent="AppTheme">
+        <item name="bookColor">@color/redBookColor</item>
+        <item name="ribbon">?bookColor</item>
+        <item name="ribbonDark">@color/darkRedRibbonColor</item>
+    </style>
+    <style name="AppTheme.Blue" parent="AppTheme">
+        <item name="bookColor">@color/blueBookColor</item>
+        <item name="ribbon">?bookColor</item>
+        <item name="ribbonDark">@color/darkBlueRibbonColor</item>
+    </style>
+    <style name="AppTheme.Green" parent="AppTheme">
+        <item name="bookColor">@color/greenBookColor</item>
+        <item name="ribbon">?bookColor</item>
+        <item name="ribbonDark">@color/darkGreenRibbonColor</item>
+    </style>
+    <style name="AppTheme.Yellow" parent="AppTheme">
+        <item name="bookColor">@color/yellowBookColor</item>
+        <item name="ribbon">?bookColor</item>
+        <item name="ribbonDark">@color/darkYellowRibbonColor</item>
+    </style>
+    <style name="AppTheme.Orange" parent="AppTheme">
+        <item name="bookColor">@color/orangeBookColor</item>
+        <item name="ribbon">?bookColor</item>
+        <item name="ribbonDark">@color/darkOrangeRibbonColor</item>
+    </style>
+    <style name="AppTheme.Purple" parent="AppTheme">
+        <item name="bookColor">@color/purpleBookColor</item>
+        <item name="ribbon">?bookColor</item>
+        <item name="ribbonDark">@color/darkPurpleRibbonColor</item>
+    </style>
+    <style name="AppTheme.Pink" parent="AppTheme">
+        <item name="bookColor">@color/pinkBookColor</item>
+        <item name="ribbon">?bookColor</item>
+        <item name="ribbonDark">@color/darkPinkRibbonColor</item>
+    </style>
+    <style name="AppTheme.Black" parent="AppTheme">
+        <item name="bookColor">@color/blackBookColor</item>
+        <item name="ribbon">?bookColor</item>
+        <item name="ribbonDark">@color/darkBlackRibbonColor</item>
+    </style>
+    <style name="AppTheme.White" parent="AppTheme">
+        <item name="bookColor">@color/whiteBookColor</item>
+        <item name="ribbon">?bookColor</item>
+        <item name="ribbonDark">@color/darkWhiteRibbonColor</item>
+    </style>
+
+<!--    Teal Theme-->
+    <style name="TealTheme" parent="AppTheme">
+        <item name="titleTextColor">@color/primaryTextColorTeal</item>
+        <item name="colorPrimary">@color/primaryColorTeal</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColorTeal</item>
+        <item name="colorPrimaryLight">@color/primaryLightColorTeal</item>
+        <item name="colorAccent">@color/primaryLightColorTeal</item>
+        <item name="colorSecondary">@color/secondaryColorTeal</item>
+        <item name="colorSecondaryLight">@color/secondaryLightColorTeal</item>
+        <item name="textPrimary">@color/primaryTextColorTeal</item>
+        <item name="textSecondary">@color/secondaryTextColorTeal</item>
+        <item name="primaryColor">@color/primaryColorTeal</item>
+        <item name="bookColor">?colorSecondaryLight</item>
+        <item name="bookColorMid">?colorPrimaryLight</item>
+        <item name="ribbon">?bookColor</item>
+        <item name="ribbonDark">?colorSecondary</item>
+    </style>
+
+    <style name="TealTheme.Red" parent="TealTheme">
+        <item name="bookColor">@color/redBookColor</item>
+        <item name="ribbonDark">@color/darkRedRibbonColor</item>
+    </style>
+    <style name="TealTheme.Blue" parent="TealTheme">
+        <item name="bookColor">@color/blueBookColor</item>
+        <item name="ribbonDark">@color/darkBlueRibbonColor</item>
+    </style>
+    <style name="TealTheme.Green" parent="TealTheme">
+        <item name="bookColor">@color/greenBookColor</item>
+        <item name="ribbonDark">@color/darkGreenRibbonColor</item>
+    </style>
+    <style name="TealTheme.Yellow" parent="TealTheme">
+        <item name="bookColor">@color/yellowBookColor</item>
+        <item name="ribbonDark">@color/darkYellowRibbonColor</item>
+    </style>
+    <style name="TealTheme.Orange" parent="TealTheme">
+        <item name="bookColor">@color/orangeBookColor</item>
+        <item name="ribbonDark">@color/darkOrangeRibbonColor</item>
+    </style>
+    <style name="TealTheme.Purple" parent="TealTheme">
+        <item name="bookColor">@color/purpleBookColor</item>
+        <item name="ribbonDark">@color/darkPurpleRibbonColor</item>
+    </style>
+    <style name="TealTheme.Pink" parent="TealTheme">
+        <item name="bookColor">@color/pinkBookColor</item>
+        <item name="ribbonDark">@color/darkPinkRibbonColor</item>
+    </style>
+    <style name="TealTheme.Black" parent="TealTheme">
+        <item name="bookColor">@color/blackBookColor</item>
+        <item name="ribbonDark">@color/darkBlackRibbonColor</item>
+    </style>
+    <style name="TealTheme.White" parent="TealTheme">
+        <item name="bookColor">@color/whiteBookColor</item>
+        <item name="ribbonDark">@color/darkWhiteRibbonColor</item>
+    </style>
+
+<!--    Bumblebee Theme-->
+    <style name="BumblebeeTheme" parent="TealTheme">
+    <item name="titleTextColor">@color/primaryTextColorBee</item>
+    <item name="colorPrimary">@color/primaryColorBee</item>
+    <item name="colorPrimaryDark">@color/primaryDarkColorBee</item>
+    <item name="colorPrimaryLight">@color/primaryLightColorBee</item>
+    <item name="colorAccent">@color/primaryDarkColorBee</item>
+    <item name="colorSecondary">@color/secondaryColorBee</item>
+    <item name="colorSecondaryLight">@color/secondaryLightColorBee</item>
+    <item name="textPrimary">@color/primaryTextColorBee</item>
+    <item name="textSecondary">@color/secondaryTextColorBee</item>
+    <item name="primaryColor">@color/primaryColorBee</item>
+</style>
+
+    <style name="BumblebeeTheme.Red" parent="BumblebeeTheme">
+        <item name="bookColor">@color/redBookColor</item>
+        <item name="ribbonDark">@color/darkRedRibbonColor</item>
+    </style>
+    <style name="BumblebeeTheme.Blue" parent="BumblebeeTheme">
+        <item name="bookColor">@color/blueBookColor</item>
+        <item name="ribbonDark">@color/darkBlueRibbonColor</item>
+    </style>
+    <style name="BumblebeeTheme.Green" parent="BumblebeeTheme">
+        <item name="bookColor">@color/greenBookColor</item>
+        <item name="ribbonDark">@color/darkGreenRibbonColor</item>
+    </style>
+    <style name="BumblebeeTheme.Yellow" parent="BumblebeeTheme">
+        <item name="bookColor">@color/yellowBookColor</item>
+        <item name="ribbonDark">@color/darkYellowRibbonColor</item>
+    </style>
+    <style name="BumblebeeTheme.Orange" parent="BumblebeeTheme">
+        <item name="bookColor">@color/orangeBookColor</item>
+        <item name="ribbonDark">@color/darkOrangeRibbonColor</item>
+    </style>
+    <style name="BumblebeeTheme.Purple" parent="BumblebeeTheme">
+        <item name="bookColor">@color/purpleBookColor</item>
+        <item name="ribbonDark">@color/darkPurpleRibbonColor</item>
+    </style>
+    <style name="BumblebeeTheme.Pink" parent="BumblebeeTheme">
+        <item name="bookColor">@color/pinkBookColor</item>
+        <item name="ribbonDark">@color/darkPinkRibbonColor</item>
+    </style>
+    <style name="BumblebeeTheme.Black" parent="BumblebeeTheme">
+        <item name="bookColor">@color/blackBookColor</item>
+        <item name="ribbonDark">@color/darkBlackRibbonColor</item>
+    </style>
+    <style name="BumblebeeTheme.White" parent="BumblebeeTheme">
+        <item name="bookColor">@color/whiteBookColor</item>
+        <item name="ribbonDark">@color/darkWhiteRibbonColor</item>
+    </style>
+
+<!--    Fire Truck Theme-->
+    <style name="FireTruckTheme" parent="TealTheme">
+        <item name="titleTextColor">@color/primaryTextColorFire</item>
+        <item name="colorPrimary">@color/primaryColorFire</item>
+        <item name="colorPrimaryDark">@color/secondaryTextColorFire</item>
+        <item name="colorPrimaryLight">@color/primaryLightColorFire</item>
+        <item name="colorAccent">@color/primaryLightColorFire</item>
+        <item name="colorSecondary">@color/secondaryColorFire</item>
+        <item name="colorSecondaryLight">@color/secondaryLightColorFire</item>
+        <item name="textPrimary">@color/primaryTextColorFire</item>
+        <item name="textSecondary">@color/secondaryTextColorFire</item>
+        <item name="primaryColor">@color/primaryColorFire</item>
+    </style>
+    <style name="FireTruckTheme.Red" parent="FireTruckTheme">
+        <item name="bookColor">@color/redBookColor</item>
+        <item name="ribbonDark">@color/darkRedRibbonColor</item>
+    </style>
+    <style name="FireTruckTheme.Blue" parent="FireTruckTheme">
+        <item name="bookColor">@color/blueBookColor</item>
+        <item name="ribbonDark">@color/darkBlueRibbonColor</item>
+    </style>
+    <style name="FireTruckTheme.Green" parent="FireTruckTheme">
+        <item name="bookColor">@color/greenBookColor</item>
+        <item name="ribbonDark">@color/darkGreenRibbonColor</item>
+    </style>
+    <style name="FireTruckTheme.Yellow" parent="FireTruckTheme">
+        <item name="bookColor">@color/yellowBookColor</item>
+        <item name="ribbonDark">@color/darkYellowRibbonColor</item>
+    </style>
+    <style name="FireTruckTheme.Orange" parent="FireTruckTheme">
+        <item name="bookColor">@color/orangeBookColor</item>
+        <item name="ribbonDark">@color/darkOrangeRibbonColor</item>
+    </style>
+    <style name="FireTruckTheme.Purple" parent="FireTruckTheme">
+        <item name="bookColor">@color/purpleBookColor</item>
+        <item name="ribbonDark">@color/darkPurpleRibbonColor</item>
+    </style>
+    <style name="FireTruckTheme.Pink" parent="FireTruckTheme">
+        <item name="bookColor">@color/pinkBookColor</item>
+        <item name="ribbonDark">@color/darkPinkRibbonColor</item>
+    </style>
+    <style name="FireTruckTheme.Black" parent="FireTruckTheme">
+        <item name="bookColor">@color/blackBookColor</item>
+        <item name="ribbonDark">@color/darkBlackRibbonColor</item>
+    </style>
+    <style name="FireTruckTheme.White" parent="FireTruckTheme">
+        <item name="bookColor">@color/whiteBookColor</item>
+        <item name="ribbonDark">@color/darkWhiteRibbonColor</item>
+    </style>
+
+<!--    Forest Green Theme-->
+    <style name="ForestGreenTheme" parent="TealTheme">
+        <item name="titleTextColor">@color/primaryTextColorForest</item>
+        <item name="colorPrimary">@color/primaryColorForest</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColorForest</item>
+        <item name="colorPrimaryLight">@color/primaryLightColorForest</item>
+        <item name="colorAccent">@color/primaryLightColorForest</item>
+        <item name="colorSecondary">@color/secondaryColorForest</item>
+        <item name="colorSecondaryLight">@color/secondaryLightColorForest</item>
+        <item name="textPrimary">@color/primaryTextColorForest</item>
+        <item name="textSecondary">@color/secondaryTextColorForest</item>
+        <item name="primaryColor">@color/primaryColorForest</item>
+    </style>
+    <style name="ForestGreenTheme.Red" parent="ForestGreenTheme">
+        <item name="bookColor">@color/redBookColor</item>
+        <item name="ribbonDark">@color/darkRedRibbonColor</item>
+    </style>
+    <style name="ForestGreenTheme.Blue" parent="ForestGreenTheme">
+        <item name="bookColor">@color/blueBookColor</item>
+        <item name="ribbonDark">@color/darkBlueRibbonColor</item>
+    </style>
+    <style name="ForestGreenTheme.Green" parent="ForestGreenTheme">
+        <item name="bookColor">@color/greenBookColor</item>
+        <item name="ribbonDark">@color/darkGreenRibbonColor</item>
+    </style>
+    <style name="ForestGreenTheme.Yellow" parent="ForestGreenTheme">
+        <item name="bookColor">@color/yellowBookColor</item>
+        <item name="ribbonDark">@color/darkYellowRibbonColor</item>
+    </style>
+    <style name="ForestGreenTheme.Orange" parent="ForestGreenTheme">
+        <item name="bookColor">@color/orangeBookColor</item>
+        <item name="ribbonDark">@color/darkOrangeRibbonColor</item>
+    </style>
+    <style name="ForestGreenTheme.Purple" parent="ForestGreenTheme">
+        <item name="bookColor">@color/purpleBookColor</item>
+        <item name="ribbonDark">@color/darkPurpleRibbonColor</item>
+    </style>
+    <style name="ForestGreenTheme.Pink" parent="ForestGreenTheme">
+        <item name="bookColor">@color/pinkBookColor</item>
+        <item name="ribbonDark">@color/darkPinkRibbonColor</item>
+    </style>
+    <style name="ForestGreenTheme.Black" parent="ForestGreenTheme">
+        <item name="bookColor">@color/blackBookColor</item>
+        <item name="ribbonDark">@color/darkBlackRibbonColor</item>
+    </style>
+    <style name="ForestGreenTheme.White" parent="ForestGreenTheme">
+        <item name="bookColor">@color/whiteBookColor</item>
+        <item name="ribbonDark">@color/darkWhiteRibbonColor</item>
+    </style>
+
+<!--    Sea Theme-->
+    <style name="SeaTheme" parent="TealTheme">
+        <item name="titleTextColor">@color/primaryTextColorSea</item>
+        <item name="colorPrimary">@color/primaryColorSea</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColorSea</item>
+        <item name="colorPrimaryLight">@color/primaryLightColorSea</item>
+        <item name="colorAccent">@color/primaryDarkColorTeal</item>
+        <item name="colorSecondary">@color/secondaryColorSea</item>
+        <item name="colorSecondaryLight">@color/secondaryLightColorSea</item>
+        <item name="textPrimary">@color/primaryTextColorSea</item>
+        <item name="textSecondary">@color/secondaryTextColorSea</item>
+        <item name="primaryColor">@color/primaryColorSea</item>
+    </style>
+
+    <style name="SeaTheme.Red" parent="SeaTheme">
+        <item name="bookColor">@color/redBookColor</item>
+        <item name="ribbonDark">@color/darkRedRibbonColor</item>
+    </style>
+    <style name="SeaTheme.Blue" parent="SeaTheme">
+        <item name="bookColor">@color/blueBookColor</item>
+        <item name="ribbonDark">@color/darkBlueRibbonColor</item>
+    </style>
+    <style name="SeaTheme.Green" parent="SeaTheme">
+        <item name="bookColor">@color/greenBookColor</item>
+        <item name="ribbonDark">@color/darkGreenRibbonColor</item>
+    </style>
+    <style name="SeaTheme.Yellow" parent="SeaTheme">
+        <item name="bookColor">@color/yellowBookColor</item>
+        <item name="ribbonDark">@color/darkYellowRibbonColor</item>
+    </style>
+    <style name="SeaTheme.Orange" parent="SeaTheme">
+        <item name="bookColor">@color/orangeBookColor</item>
+        <item name="ribbonDark">@color/darkOrangeRibbonColor</item>
+    </style>
+    <style name="SeaTheme.Purple" parent="SeaTheme">
+        <item name="bookColor">@color/purpleBookColor</item>
+        <item name="ribbonDark">@color/darkPurpleRibbonColor</item>
+    </style>
+    <style name="SeaTheme.Pink" parent="SeaTheme">
+        <item name="bookColor">@color/pinkBookColor</item>
+        <item name="ribbonDark">@color/darkPinkRibbonColor</item>
+    </style>
+    <style name="SeaTheme.Black" parent="SeaTheme">
+        <item name="bookColor">@color/blackBookColor</item>
+        <item name="ribbonDark">@color/darkBlackRibbonColor</item>
+    </style>
+    <style name="SeaTheme.White" parent="SeaTheme">
+        <item name="bookColor">@color/whiteBookColor</item>
+        <item name="ribbonDark">@color/darkWhiteRibbonColor</item>
+    </style>
+
+    <!--    Professional Theme-->
+    <style name="ProfessionalTheme" parent="TealTheme">
+        <item name="titleTextColor">@color/primaryTextColorProf</item>
+        <item name="colorPrimary">@color/primaryColorProf</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColorProf</item>
+        <item name="colorPrimaryLight">@color/primaryLightColorProf</item>
+        <item name="colorAccent">@color/primaryLightColorProf</item>
+        <item name="colorSecondary">@color/secondaryColorProf</item>
+        <item name="colorSecondaryLight">@color/secondaryLightColorProf</item>
+        <item name="textPrimary">@color/primaryTextColorProf</item>
+        <item name="textSecondary">@color/secondaryTextColorProf</item>
+        <item name="primaryColor">@color/primaryColorProf</item>
+    </style>
+    <style name="ProfessionalTheme.Red" parent="ProfessionalTheme">
+        <item name="bookColor">@color/redBookColor</item>
+        <item name="ribbonDark">@color/darkRedRibbonColor</item>
+    </style>
+    <style name="ProfessionalTheme.Blue" parent="ProfessionalTheme">
+        <item name="bookColor">@color/blueBookColor</item>
+        <item name="ribbonDark">@color/darkBlueRibbonColor</item>
+    </style>
+    <style name="ProfessionalTheme.Green" parent="ProfessionalTheme">
+        <item name="bookColor">@color/greenBookColor</item>
+        <item name="ribbonDark">@color/darkGreenRibbonColor</item>
+    </style>
+    <style name="ProfessionalTheme.Yellow" parent="ProfessionalTheme">
+        <item name="bookColor">@color/yellowBookColor</item>
+        <item name="ribbonDark">@color/darkYellowRibbonColor</item>
+    </style>
+    <style name="ProfessionalTheme.Orange" parent="ProfessionalTheme">
+        <item name="bookColor">@color/orangeBookColor</item>
+        <item name="ribbonDark">@color/darkOrangeRibbonColor</item>
+    </style>
+    <style name="ProfessionalTheme.Purple" parent="ProfessionalTheme">
+        <item name="bookColor">@color/purpleBookColor</item>
+        <item name="ribbonDark">@color/darkPurpleRibbonColor</item>
+    </style>
+    <style name="ProfessionalTheme.Pink" parent="ProfessionalTheme">
+        <item name="bookColor">@color/pinkBookColor</item>
+        <item name="ribbonDark">@color/darkPinkRibbonColor</item>
+    </style>
+    <style name="ProfessionalTheme.Black" parent="ProfessionalTheme">
+        <item name="bookColor">@color/blackBookColor</item>
+        <item name="ribbonDark">@color/darkBlackRibbonColor</item>
+    </style>
+    <style name="ProfessionalTheme.White" parent="ProfessionalTheme">
+        <item name="bookColor">@color/whiteBookColor</item>
+        <item name="ribbonDark">@color/darkWhiteRibbonColor</item>
+    </style>
+
+    <style name="Widget.AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">?header</item>
+        <item name="elevation">4dp</item>
+    </style>
+
+    <!-- TextView -->
+    <style name="LightTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">?primaryColor</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+<!--    Preferences-->
+
+    <style name="LightDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">?textPrimary</item>
+        <item name="android:textColor">?primaryColor</item>
+        <item name="android:textColorPrimary">?primaryColor</item>
+        <item name="android:textColorSecondary">?primaryColor</item>
+        <item name="colorAccent">?colorPrimaryLight</item>
+        <item name="android:textViewStyle">@style/LightTextView</item>
+        <item name="textColorAlertDialogListItem">?primaryColor</item>
+    </style>
+
+</resources>

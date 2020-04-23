@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Purple Theme(Default)-->
+    <color name="primaryColorPurple">#4a148c</color>
+
+    <color name="primaryLightColorPurple">#7c43bd</color>
+
+    <color name="primaryDarkColorPurple">#12005e</color>
+
+    <color name="secondaryColorPurple">#4527a0</color>
+
+    <color name="secondaryLightColorPurple">#7953d2</color>
+
+    <color name="secondaryDarkColorPurple">#000070</color>
+
+    <color name="primaryTextColorPurple">#ffffff</color>
+
+    <color name="secondaryTextColorPurple">#FFFFFF</color>
+
+<!--    Teal Theme-->
+    <color name="primaryColorTeal">#26c6da</color>
+
+    <color name="primaryLightColorTeal">#6ff9ff</color>
+
+    <color name="primaryDarkColorTeal">#0095a8</color>
+
+    <color name="secondaryColorTeal">#e0e0e0</color>
+
+    <color name="secondaryLightColorTeal">#ffffff</color>
+
+    <color name="secondaryDarkColorTeal">#aeaeae</color>
+
+    <color name="primaryTextColorTeal">#000000</color>
+
+    <color name="secondaryTextColorTeal">#000000</color>
+
+<!--    Bumblebee Theme-->
+    <color name="primaryColorBee">#fdd835</color>
+
+    <color name="primaryLightColorBee">#ffff6b</color>
+
+    <color name="primaryDarkColorBee">#c6a700</color>
+
+    <color name="secondaryColorBee">#212121</color>
+
+    <color name="secondaryLightColorBee">#484848</color>
+
+    <color name="secondaryDarkColorBee">#000000</color>
+
+    <color name="primaryTextColorBee">#000000</color>
+
+    <color name="secondaryTextColorBee">#ffffff</color>
+
+<!--    Fire Truck Theme-->
+    <color name="primaryColorFire">#d32f2f</color>
+
+    <color name="primaryLightColorFire">#ff6659</color>
+
+    <color name="primaryDarkColorFire">#9a0007</color>
+
+    <color name="secondaryColorFire">#fafafa</color>
+
+    <color name="secondaryLightColorFire">#ffffff</color>
+
+    <color name="secondaryDarkColorFire">#c7c7c7</color>
+
+    <color name="primaryTextColorFire">#ffffff</color>
+
+    <color name="secondaryTextColorFire">#000000</color>
+
+<!--    Forest Green Theme-->
+    <color name="primaryColorForest">#43a047</color>
+
+    <color name="primaryLightColorForest">#76d275</color>
+
+    <color name="primaryDarkColorForest">#5f4339</color>
+
+    <color name="secondaryColorForest">#8d6e63</color>
+
+    <color name="secondaryLightColorForest">#be9c91</color>
+
+    <color name="secondaryDarkColorForest">#00b248</color>
+
+    <color name="primaryTextColorForest">#000000</color>
+
+    <color name="secondaryTextColorForest">#000000</color>
+
+<!--    Sea Theme-->
+    <color name="primaryColorSea">#4fc3f7</color>
+
+    <color name="primaryLightColorSea">#feeae2</color>
+
+    <color name="primaryDarkColorSea">#0093c4</color>
+
+    <color name="secondaryColorSea">#80deea</color>
+
+    <color name="secondaryLightColorSea">#b4ffff</color>
+
+    <color name="secondaryDarkColorSea">#4bacb8</color>
+
+    <color name="primaryTextColorSea">#000000</color>
+
+    <color name="secondaryTextColorSea">#000000</color>
+
+<!--    Professional-->
+    <color name="primaryColorProf">#867997</color>
+
+    <color name="primaryLightColorProf">#A79FB2</color>
+
+    <color name="primaryDarkColorProf">#6A5980</color>
+
+    <color name="secondaryColorProf">#DFDAAE</color>
+
+    <color name="secondaryLightColorProf">#FFFCE1</color>
+
+    <color name="secondaryDarkColorProf">#BDB77D</color>
+
+    <color name="primaryTextColorProf">#FFFFFF</color>
+
+    <color name="secondaryTextColorProf">#000000</color>
+
+    867997
+
+<!--     Book-->
+
+    <color name="defaultBookColor">#d4aa00</color>
+
+    <color name="defaultBookMidColor">#ffcc00</color>
+
+    <color name="redBookColor">#D46A6A</color>
+
+    <color name="darkRedRibbonColor">#AA3939</color>
+
+    <color name="blueBookColor">#6963C7</color>
+
+    <color name="darkBlueRibbonColor">#4A44B3</color>
+
+    <color name="greenBookColor">#50A162</color>
+
+    <color name="darkGreenRibbonColor">#2B803E</color>
+
+    <color name="yellowBookColor">#FFFD83</color>
+
+    <color name="darkYellowRibbonColor">#E3E15D</color>
+
+    <color name="orangeBookColor">#FF971E</color>
+
+    <color name="darkOrangeRibbonColor">#F98600</color>
+
+    <color name="purpleBookColor">#A219BA</color>
+
+    <color name="darkPurpleRibbonColor">#8C03A4</color>
+
+    <color name="pinkBookColor">#D56C9D</color>
+
+    <color name="darkPinkRibbonColor">#B8437A</color>
+
+    <color name="blackBookColor">#606262</color>
+
+    <color name="darkBlackRibbonColor">#606262</color>
+
+    <color name="whiteBookColor">#FFFFFF</color>
+
+    <color name="darkWhiteRibbonColor">#E3E3E3</color>
+
+</resources>

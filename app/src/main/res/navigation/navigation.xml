@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/passwordFrag">
+    <fragment
+        android:id="@+id/helpFrag"
+        android:name="com.happyhappyyay.android.dreamdiary.help.HelpFrag"
+        android:label="@string/help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/journalFrag"
+        android:name="com.happyhappyyay.android.dreamdiary.journal.JournalFrag"
+        android:label="@string/diary"
+        tools:layout="@layout/journal_fragment" >
+        <action
+            android:id="@+id/action_journalFrag_to_helpFrag"
+            app:destination="@id/helpFrag" />
+        <action
+            android:id="@+id/action_journalFrag_to_settings"
+            app:destination="@id/settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordFrag"
+        android:name="com.happyhappyyay.android.dreamdiary.password.PasswordFrag"
+        android:label="@string/enter_password"
+        tools:layout="@layout/password_fragment">
+        <action
+            android:id="@+id/action_passwordFrag_to_journalFrag"
+            app:destination="@id/journalFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.happyhappyyay.android.dreamdiary.settings.Settings"
+        android:label="Settings" />
+</navigation>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:layout="@layout/category_pref"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:title="@string/general">
+        <com.happyhappyyay.android.dreamdiary.util.CustomEditTextPreference
+            android:key="@string/pref_key_password"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/enter_password_summary"
+            android:title="@string/enter_password"
+            app:dialogLayout="@layout/edit_text_layout" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_require_pass"
+            android:summary="@string/require_password_summary"
+            android:title="@string/require_password" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_auto_record"
+            android:summary="@string/auto_record_summary"
+            android:title="@string/auto_record_on_open" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_prefer_offline"
+            android:summary="@string/prefer_offline_summary"
+            android:title="@string/prefer_offline" />
+        <Preference
+            android:summary="@string/export_summary"
+            android:title="@string/export"
+            app:key="@string/pref_key_export" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/category_pref"
+        android:title="@string/appearance"
+        app:allowDividerBelow="false">
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/theme_array"
+            android:entryValues="@array/theme_array_val"
+            android:key="@string/pref_key_theme"
+            android:summary="@string/theme_summary"
+            android:title="@string/theme" />
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/book_array"
+            android:entryValues="@array/book_array_val"
+            android:key="@string/pref_key_book_color"
+            android:summary="@string/book_color_summary"
+            android:title="@string/book_color" />
+    </PreferenceCategory>
+</PreferenceScreen>

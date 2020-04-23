@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bookColor" format="reference" />
+    <attr name="bookColorMid" format="reference" />
+    <attr name="textPrimary" format="reference" />
+    <attr name="textSecondary" format="reference" />
+    <attr name="primaryColor" format="reference" />
+    <attr name="colorPrimaryLight" format="reference" />
+    <attr name="colorSecondaryLight" format="reference"/>
+    <attr name="header" format="reference"/>
+    <attr name="ribbon" format="reference"/>
+    <attr name="ribbonDark" format="reference"/>
+</resources>
